@@ -1,0 +1,38 @@
+<!--HTML:
+
+Title and heading
+
+Mood selection (happy, sad, excited, tired – using radio buttons or dropdown)
+
+Textarea for journal entry
+
+Submit button
+
+A section to display submitted entries-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Journal</h1>
+        <h4>Journal according to your mood</h4>
+    </header>
+    <main>
+        <div class="container"> 
+        <div id="happy" onclick="happy()">&#128512Happy</div>
+        <div id="sad" onclick="sad()">&#128532Sad</div>
+        <div id="excited" onclick="excited()">&#128526Excited</div>
+        <div id="tired" onclick="tired()">&#128531Tired</div>
+        <div id="angry" onclick="angry()">&#128545Angry</div>
+    </div>
+
+       
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
